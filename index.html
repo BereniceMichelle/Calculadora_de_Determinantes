@@ -1,19 +1,10 @@
 <html>
   <body>
-	  <
-      <input type="text" name="numero1">
+	  <form name="numeros" method="post" action="numeros.php">
+      			<input type="text" name="numero1">
 			<input type="text" name="numero2">
 			<input type="submit" name="calcular" value="Calcular">
-			
-		<?php
-
-			if(isset($_REQUEST["calcular"])){
-
-				$n1=$_REQUEST["numero1"]
-				$n2=$_REQUEST["numero2"]
-
-				echo " $n1 $n2"
-		}
-		?>
+	  </form>
+		
   </body>
 </html>
