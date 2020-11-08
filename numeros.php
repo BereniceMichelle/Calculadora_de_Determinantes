@@ -1,14 +1,6 @@
-<html>
-	<body>
-		<?php
-
-			
-
-				$n1=$_REQUEST["numero1"];
-				$n2=$_REQUEST["numero2"];
-
-				echo " $n1 $n2";
+<?php
+	$numero1 = $_GET["numero1"];
+	$numero2 = $_GET["numero2"];
+	echo " <p>$n1 $n2</p>";
 		
-		?>
-	</body>
-	</html>
+?>
